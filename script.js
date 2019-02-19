@@ -11,7 +11,7 @@ $(document).ready(function() {
         <h2>How Similar DNA is compared</h2>
         <ul>
           <li><p>First, you have to map the desired DNA sample. To do so, you must begin by processing your sample through a machine known as a DNA sequencer.</p></li>
-          <li><p>After processing, the machine will split the desired sample into the four bases G (guanine), C (cytosine), A (adenine), and T (thymine). The sequencer will then output a string of text known as a "read." Ex: AGTCTCCGTCCTGCTAGGTGTCGAG</p></li>
+          <li><p>After processing, the machine will split the desired sample into the four bases G (guanine), C (cytosine), A (adenine) and T (thymine). The sequencer will then output a string of text known as a "read." Ex: AGTCTCCGTCCTGCTAGGTGTCGAG</p></li>
           <li><p>If you wish to compare sequences, you must do this process twice, once for each sample. Real samples will be thousands of characters long.</p></li>
           <li><p>The final step in comparing the sequences in the comparison itself. You enter both strings of DNA into an algorithm, for exmaple BLAST, and it will spit out results pertaining to the similarties between the two entered DNA sequences.</p></li>
           <li><p>The program essentially just looks to see which strings of characters in the sequence are alike. The more similar sequences, the more similar the samples.</p></li>
