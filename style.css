@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.hi {
+  background: linear-gradient(blue, yellow);
+  border: 1px solid;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  color: #00897b;
+  height: 75%;
+  width 50%;
+}
+
+header {
+  text-align: center;
+  background-color: #282828;
+  color: #00897b;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header div {
+  border: 1px solid #00897b;
+  width: 25%;
+  margin: auto;
+}
+
+html {
+  background-color: #363636;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.main {
+  background: linear-gradient(to left, #00897b, black);
+  height: 70vh;
+  width: 45%;
+}
+
+#me {
+  background: linear-gradient(to left, black, #00897b);
+}
+
+#co {
+  color: white;
+}
+
+#co img {
+  width: 100%;
+}
