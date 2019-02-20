@@ -15,7 +15,6 @@ $(document).ready(function() {
           <li><p>If you wish to compare sequences, you must do this process twice, once for each sample. Real samples will be thousands of characters long.</p></li>
           <li><p>The final step in comparing the sequences in the comparison itself. You enter both strings of DNA into an algorithm, for exmaple BLAST, and it will spit out results pertaining to the similarties between the two entered DNA sequences.</p></li>
           <li><p>The program essentially just looks to see which strings of characters in the sequence are alike. The more similar sequences, the more similar the samples.</p></li>
-          <li>Example BLAST algorithm result:<br /> <img id="blast" src="https://github.com/similardna/similardna.github.io/blob/master/Screenshot%202019-02-14%20at%201.35.28%20PM.png?raw=true" /></li>
         </ul>
       </div>
       `
@@ -26,6 +25,7 @@ $(document).ready(function() {
       $("#me").css("width", "50%");
       $("#me").html("");
       $("#me").css("padding", "0");
+      $("#me").css("padding-left", "0");
       meClick = false;
     }
   });
