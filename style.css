@@ -55,5 +55,19 @@ html {
 }
 
 #co img {
-  width: 100%;
+  width: 75%;
+}
+
+#tls {
+  display: flex;
+  color: #00897b;
+  text-align: center;
+}
+
+#tls h1 {
+  width: 50%;
+}
+
+#co {
+  font-size: 1.15em;
 }
